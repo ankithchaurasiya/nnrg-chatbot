@@ -1,0 +1,478 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hiiiiii",
+        "helloooo",
+        "Hiii",
+        "Helloo","heyy","heyyy",
+        "hiiii",
+        "hiiiii",
+        "Hii",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "college timings_working days",
+      "patterns": [
+        "college timings",
+        "college timings for students",
+        "nnrg college timings",
+        "college timings nnrg",
+        "what are the college timings for students in nnrg",
+        "what are the college timings",
+        "what are the college timings for students",
+        "tell me about the college timings in nnrg",
+        "tell me about the college timings nnrg",
+        "tell me about the college timings",
+        "college working days",
+        "working days in nnrg",
+        "college working days nnrg",
+        "nnrg working days",
+        "what are the working days of nnrg",
+        "what are the college working days",
+        "Do nnrg allow students to go outside during the college timings",
+        "closed or open gates",
+        "nnrg clg timings"
+      ],
+      "responses": [
+        "Monday to Saturday: 9.15 AM to 4.00 PM (Closed Gates)"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "is hostel available for students in nnrg",
+        "nnrg hostel",
+        "tell me about nnrg hostel",
+        "hostel nnrg",
+        "explain about hostel in nnrg",
+        "hostel facility",
+        "girls hostel",
+        "boys hostel"
+      ],
+      "responses": [
+        "<p>The campus provides hostel facilities for girls but, unfortunately, does not offer the same for boys.</p><p>The hostel fee for a year amounts to <b>Rs.90000</b></p><The total capacity of the hostel being 540</p>"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "what are you doing?",
+      "patterns": [
+        "hey! what are you doing?",
+        "what are you doing"
+      ],
+      "responses": [
+        "I'm here to assist you! How can I help you today?"
+      ]
+    },
+    {
+      "tag": "IT",
+      "patterns": [
+        "IT",
+        "explain about IT in nnrg",
+        "explain about IT",
+        "information techonology",
+        "it",
+        "Tell me about IT in nnrg",
+        "nnrg it"
+      ],
+      "responses": [
+        "At nnrg, the Information Technology (IT) department offers a diverse curriculum covering key IT subjects such as programming, data structures, networks,  and software engineering etc . With a focus on practical learning, the department provides well-equipped labs and a comprehensive library. Students often engage in industry-related events, benefiting from strong ties to IT companies for internships and placements.To know more about IT,you can visit <a href='https://nnrg.edu.in/computer-science-and-engineering.php' target='_blank'>nnrg IT&CSE</a>"
+      ]
+    },
+   
+    {
+      "tag": "cse",
+      "patterns": [
+        "cse",
+        "computer science",
+        "cse specializations","specializations of cse at nnrg"
+      ],
+      "responses": [
+        "<div><li>Computer Science and Engineering</li><li> Data Science</li><li>CSE(Artificial Intelligence and Machine Learning)</li><li>Artificial Intelligence and Machine Learning</li></div/>"
+      ]
+    },
+    {
+      "tag": "Mech",
+      "patterns": [
+        "Mech",
+        "Mechanical"
+      ],
+      "responses": [
+        "The Mechanical Engineering department was established in 2009, with the prime motto to offer surreal education to the aspirants. The department offers both B.Tech in Mechanical Engineering and M.Tech in Mechanical Engineering for its students. The initial intake was 60, and the number has only increased in the later years, because of the unparalleled educational services provided by us."
+      ]
+    },
+    {
+      "tag": "ECE",
+      "patterns": [
+        "Ece",
+        "Electronics and communication Engineering ",
+        "Electronics and communication"
+      ],
+      "responses": [
+        "NNRG is ranked among one of the best ECE colleges in Hyderabad because of its industry-oriented curriculum which is strictly as prescribed by UGC. The curriculum is up to date and follows the best teaching practices by highly qualified faculties."
+      ]
+    },
+    
+    
+    {
+      "tag": "EEE",
+      "patterns": [
+        "eee",
+        "Electrical and Electronics Engineering"
+      ],
+      "responses": [
+        "The Department of Electrical & Electronics Engineering was started in the year 2009 with an intake of 60 in B.Tech Electrical and Electronics Engineering (EEE)."
+      ]
+    },
+    {
+      "tag": "civil",
+      "patterns": [
+        "civil"
+      ],
+      "responses": [
+        "Civil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including works like roads, bridges, canals, dams, and buildings."
+      ]
+    },
+    {
+      "tag": "nnrg",
+      "patterns": [
+        "Nalla Narshimha reddy group of institutions",
+        "Tell me about nnrg",
+        "nnrg information",
+        "nnrg",
+        "nnrg info"
+      ],
+      "responses": [
+        "<p>Nalla Narshimha reddy group of institutions (nnrg) is a prestigious engineering college located in Korremula ‘X’ Road, Via Narapally, Chowdariguda (Vill), Ghatkesar (Mandal), Medchal (Dist), Hyderabad, Telangana , India.</p><p>nnrg offers a range of undergraduate and postgraduate programs and is known for its commitment to quality education and innovation.</p><p>For more information, you can visit the nnrg website: <a href='https://nnrg.edu.in/' target='_blank'>nnrg Website</a></p>"
+      ]
+    },
+    {
+      "tag": "director",
+      "patterns": [
+        "who is the director of nnrg",
+        "director",
+        "nnrg director",
+        "princi",
+        "director of nnrg"
+      ],
+      "responses": [
+        "<p style='white-space: nowrap;'>Prof. C. V. Krishna Reddy</p>"
+      ]
+    },
+    {
+      "tag": "chairman",
+      "patterns": [
+        "who is the chairman of nnrg",
+        "chairman",
+        "nnrg chairman",
+        "princi",
+        "chairman of nnrg"
+      ],
+      "responses": [
+        "<p style='white-space: nowrap;'> Nalla  Narsimha Reddy</p>"
+      ]
+    },
+    {
+      "tag": "Dean",
+      "patterns": [
+        "who is the Dean of nnrg",
+        "Dean",
+        "nnrg Dean",
+        "princi",
+        "Dean of nnrg"
+      ],
+      "responses": [
+        "<p style='white-space: nowrap;'>Dr. G . Janardhana Raju</p>"
+      ]
+    },
+    {
+      "tag": "vision",
+      "patterns": [
+        "vision of nnrg",
+        "vision",
+        "vision nnrg",
+        "nnrg vision",
+        "what is the vision of nnrg"
+      ],
+      "responses": [
+        "nnrg's Vision: 'To provide higher education by refining the traditional methods of teaching to make globally competent professionals .'"
+      ]
+    },
+    {
+      "tag": "mission",
+      "patterns": [
+        "mission of nnrg",
+        "mission",
+        "mission nnrg",
+        "nnrg mission",
+        "what is the mission of nnrg"
+      ],
+      "responses": [
+        "nnrg's Mission: 'To impart quality education by providing the state of the art infrastructure and innovative research facilities.'"
+      ]
+    },
+    {
+      "tag": "vision_mission",
+      "patterns": [
+        "What is nnrg's vision and mission?",
+        "nnrg institute goals",
+        "Vision and mission of nnrg",
+        "vision and mission",
+        "nnrg vision and mission",
+        "nnrg vision mission"
+      ],
+      "responses": [
+        "<p>nnrg's Vision: 'To provide higher education by refining the traditional methods of teaching to make globally competent professionals .'</p> <p>nnrg's Mission: 'To impart quality education by providing the state of the art infrastructure and innovative research facilities'</p>"
+      ]
+    },
+    {
+      "tag": "vision_mission_IT",
+      "patterns": [
+        "What is IT vision and mission?",
+        "it vision",
+        "it mission",
+        "Vision and mission of nnrg IT",
+        "vision and mission IT",
+        "IT vision and mission",
+        "Vision and mission of IT",
+        "tell me the vision and mission of nnrg it",
+        "tell me about the vision and mission of it"
+      ],
+      "responses": [
+        "Department Vision: Imparting the quality technical education through effective teaching learning process for producing global competent IT professionals with moral values."
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "Tell me about the fee structure",
+        "nnrg tuition fees",
+        "Cost of education at nnrg",
+        "fee structure",
+        "fee details at nnrg",
+        "fee details"
+      ],
+      "responses": [
+        "<div> <p>nnrg Tuition Fee for 2023-2024:</p><li>For Convener and B-Category students: <b>Rs. 84,000*</b></li><li>Special provisions for NRI students: 1,00,000</li></div> For more information, you can visit <a href='https://www.getmyuni.com/college/nalla-narsimha-reddy-education-society-s-group-of-institutions-nnresgi-hyderabad-courses-fees#:~:text=Fees%20%26%20Scholarships%20%3A%20The%20fee%20structure%20of,to%20those%20who%20perform%20well%20in%20their%20academics./' target='_blank'>Fee Structure</a>"
+      ]
+    },
+    {
+      "tag": "Hod of CSE",
+      "patterns": [
+        "who is the HOD of CSE department",
+        "CSE HOD",
+        "hod",
+        "HOD of CSE"
+      ],
+      "responses": [
+        "Dr. K. Ramashewaraiah"
+      ]
+    },
+    {
+      "tag": "placements_package",
+      "patterns": [
+        "what is the placement percentage in nnrg?",
+        "what is the placement percentage?",
+        "placement percentage",
+        "tell me about placements",
+        "placements in nnrg",
+        "placements",
+        "It placements percentage",
+        "placement percentage of IT",
+        "what is the placement percentage in IT?",
+        "tell me about placements in IT",
+        "packages",
+        "packages at nnrg",
+        "package",
+        "highest package at nnrg",
+        "highest package",
+        "what is the highest package at nnrg",
+        "tell me the highest package at nnrg",
+        "what is the highest package of IT",
+        "highest package IT",
+        "highest package of IT department",
+        "It highest package",
+        "nnrg highest package",
+        "highest package",
+        "tell me about the placements and packages of nnrg",
+        "placements and packages of nnrg",
+        "placements and packages in nnrg",
+        "placements and packages at nnrg",
+        "placements and packages",
+        "details about placements and packages in nnrg",
+        "details about placements and packages at nnrg",
+        "details about placements and packages of nnrg",
+        "details about placements and packages"
+      ],
+      "responses": [
+        "<p>In the 2022-2023 academic year, nnrg achieved an <b>77%</b> placement rate with the highest package being <b>18 LPA</b>.</p><p> Similarly, the IT department recorded an <b> %</b> placement rate with a peak package of <b>6 LPA</b>.</p><p>For more Information,you can visit <a href='https://nnrg.edu.in/placement-records.php' target='_blank'>nnrg Placements</a></p>"
+      ]
+    },
+    {
+      "tag": "achievements",
+      "patterns": [
+        "tell me about the achievements in nnrg",
+        "tell me about the achievements at nnrg",
+        "tell me about the achievements of nnrg",
+        "achievements",
+        "achievements nnrg",
+        "achievements at nnrg","ranking of college",
+        "ranking details of nnrg college",
+        "nnrg ranking",
+        "achievements of nnrg",
+        "achievements in nnrg",
+        "what are the achievements of nnrg",
+        "nnrg achievements",
+        "tell me about achievements",
+        "accomplishments"
+      ],
+      "responses": [
+        "<div> <p>nnrg's Achievements:</p> <ul> <li>Accredited in the third cycle by <b>NAAC</b> with Grade A+.</li><li>Ranked <b>No.1</b> in both the Telugu states amongst the Self-financed Engineering Institutions.</li> <li><b>ISO</b> 9001:2015 Certified Institution.</li>  <li>Ranked all India 230-247 band by <b>NIRF</b>-MHRD,2023.</li> <li> 5 UG Engineering and 1 PG programs have been Acrediated by <b>National Board of Accreditation</b></li></ul></div>"
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "events",
+        "what are the events at nnrg",
+        "nnrg events",
+        "nnrg it events",
+        "it events",
+        "events it",
+        "events nnrg",
+        "tell me about the events of nnrg ",
+        "tell me about the events of nnrg it",
+        "what are the events of nnrg it",
+        "what are the events of nnrg",
+        "what are the events in nnrg",
+        "what are the events in nnrg it",
+        "what are the events of nnrg it"
+      ],
+      "responses": [
+        "<div> <p>nnrg's Events:</p><li> <b>Tech samprathi</b> 2023</li> </div>For more information,you can visit <a href='https://nnrg.edu.in/latestevents.php' target='_blank'>nnrg EVENTS</a>"
+      ]
+    },
+    {
+      "tag": "courses_admissions",
+      "patterns": [
+        "courses",
+        "admissions",
+        "admissions nnrg",
+        "admissions details in nnrg",
+        "admissions details",
+        "admission",
+        "admission detail",
+        "admission detail nnrg",
+        "admission detail in nnrg",
+        "admissions in nnrg",
+        "what are the courses in nnrg",
+        "what are the courses nnrg",
+        "what are the courses there in nnrg",
+        "what courses are there in nnrg"
+      ],
+      "responses": [
+        "<div><p><b>UG Courses</b></p> <li>B.tech- Civil Engineering</li><li>B.tech- Mechanical Engineering </li><li>B.tech- Electronics & Communications Engineering </li><li>B.tech- Computer Science and Engineering </li><li>B.tech- Electrical & Electronics Engineering </li><li>B.tech- Information Technology </li><li>B.tech- Artificial Intelligence and Machine Learning</li></div><div><p><b>PG Courses</b></p><li>MBA (Master of Business Administration) </li></div><p>For more Information, you can visit <a href='https://nnrg.edu.in/admissions/index.php/' target='_blank'>nnrg Admissions</a></p>"
+      ]
+    },
+    {
+      "tag": "strength",
+      "patterns": [
+        "how many students are there in IT department",
+        "how many students are there in IT department nnrg",
+        "no. of students in it",
+        "student count",
+        "student count IT",
+        "no. of students in nnrg it",
+        "number of students in nnrg it",
+        "number of students in it department",
+        "number of students in it"
+      ],
+      "responses": [
+        "There are approximately 280 students who belong to IT department"
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "nnrg sports",
+        "sports",
+        "sports nnrg",
+        "tell me about sports in nnrg",
+        "Tell me about nnrg sports",
+        "explain about sports in nnrg",
+        "explain about sports"
+      ],
+      "responses": [
+        "Sports at nnrg are vibrant and diverse, encompassing traditional games like basketball, cricket, and football, as well as niche sports like badminton and table tennis. The college actively hosts inter-college tournaments and intra-college competitions, fostering teamwork and healthy competition. Students also have access to regional and national level events. For more infomation, you can visit <a href='https://nnrg.edu.in/sports-and-games.php' target='_blank'>nnrg SPORTS</a>"
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "library",
+        "nnrg library",
+        "explain about the nnrg library",
+        "tell me about the nnrg library"
+      ],
+      "responses": [
+        "nnrg boasts an extensive library offering a plethora of books, journals, and technical resources. With dedicated discussion rooms and a resource center, it provides an enriching environment for both individual study and collaborative learning.For more details, you can visit the library's website at <a href='https://nnrg.edu.in/digital-library.php' target='_blank'>nnrg Library</a>"
+      ]
+    },
+    {
+      "tag": "Lab",
+      "patterns": [
+        "labs in nnrg it",
+        "it labs",
+        "labs in it",
+        "nnrg labs",
+        "tell me about the labs in nnrg it",
+        "tell me about the labs in nnrg",
+        "explain about nnrg labs"
+      ],
+      "responses": [
+        "nnrg's Department of IT Infrastructure houses specialized labs equipped with cutting-edge technology. These labs support practical learning in programming, networking, and database management. They provide a hands-on environment for research, projects, and application of theoretical knowledge in real-world scenarios.For more information, you can visit <a href='https://nnrg.edu.in/cselabs.php#' target='_blank'>nnrg LABS</a>"
+      ]
+    },
+    {
+      "tag": "IT_syllabus",
+      "patterns": [
+        "syllabus","nnrg syllabus","what is the syllabus at nnrg",
+        "give me the details about the nnrg syllabus","syllabus nnrg",
+        "it syllabus",
+        "nnrg it syllabus",
+        "tell me about the syllabus in nnrg it",
+        "explain about the syllabus of it"
+      ],
+      "responses": [
+        "Certainly! To access the syllabus details for courses offered at nnrg, kindly visit the following link: <a href='https://nnrg.edu.in/PDF/Course/cse/R21_B_Tech_IT_Syllabus.pdf' target='_blank'>nnrg Syllabus</a>. This resource provides comprehensive information regarding the curriculum structure for both undergraduate and postgraduate programs at the institution."
+      ]
+    }
+    
+  ]
+}
