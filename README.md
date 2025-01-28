@@ -1,9 +1,9 @@
 <<<<<<< HEAD
-# Chatbot Deployment with Flask and JavaScript
+# Chatbot Development with Flask and JavaScript
 
-In this tutorial we deploy the chatbot that is created with Flask and JavaScript.
+In this tutorial we develo[ the chatbot that is created with Flask and JavaScript.
 
-This gives  deployment option:
+This gives  develop option:
 - Serve only the Flask prediction API. The used html and javascript files can be included in any Frontend application (with only a slight modification) and can run completely separate from the Flask App then.
 
 ## Initial Setup:
