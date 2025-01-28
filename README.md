@@ -42,7 +42,7 @@ $ (venv) python chat.py
 Now for deployment follow my tutorial to implement `app.py` and `app.js`.
 
 
-## Deployment Link
+## About Chatbot
 
 
 
@@ -61,6 +61,4 @@ base.html : it is used to develop the chatbot interface
 
 model.py : NLP model is defined here 
 =======
-# nnrg-chatbot
-Gives Information about Nalla Narasimha Reddy Engineering College
 >>>>>>> edccc7d466c66d1168d9a50c172d1fcef9b1d213
