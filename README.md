@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Chatbot Deployment with Flask and JavaScript
 
 In this tutorial we deploy the chatbot we created in [this](https://github.com/Rohithchowk/CBITchatbot.git) tutorial with Flask and JavaScript.
@@ -59,3 +60,7 @@ base.html : it is used to develop the chatbot interface
 
 
 model.py : NLP model is defined here 
+=======
+# nnrg-chatbot
+Gives Information about Nalla Narasimha Reddy Engineering College
+>>>>>>> edccc7d466c66d1168d9a50c172d1fcef9b1d213
